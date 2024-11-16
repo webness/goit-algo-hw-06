@@ -1,0 +1,417 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "FloorSwitch_1"
+        },
+        {
+            "id": "Switch_F1_C1"
+        },
+        {
+            "id": "PC_F1_C1_1"
+        },
+        {
+            "id": "PC_F1_C1_2"
+        },
+        {
+            "id": "PC_F1_C1_3"
+        },
+        {
+            "id": "PC_F1_C1_4"
+        },
+        {
+            "id": "Switch_F1_C2"
+        },
+        {
+            "id": "PC_F1_C2_1"
+        },
+        {
+            "id": "PC_F1_C2_2"
+        },
+        {
+            "id": "PC_F1_C2_3"
+        },
+        {
+            "id": "PC_F1_C2_4"
+        },
+        {
+            "id": "Switch_F1_C3"
+        },
+        {
+            "id": "PC_F1_C3_1"
+        },
+        {
+            "id": "PC_F1_C3_2"
+        },
+        {
+            "id": "PC_F1_C3_3"
+        },
+        {
+            "id": "PC_F1_C3_4"
+        },
+        {
+            "id": "FloorSwitch_2"
+        },
+        {
+            "id": "Switch_F2_C1"
+        },
+        {
+            "id": "PC_F2_C1_1"
+        },
+        {
+            "id": "PC_F2_C1_2"
+        },
+        {
+            "id": "PC_F2_C1_3"
+        },
+        {
+            "id": "PC_F2_C1_4"
+        },
+        {
+            "id": "Switch_F2_C2"
+        },
+        {
+            "id": "PC_F2_C2_1"
+        },
+        {
+            "id": "PC_F2_C2_2"
+        },
+        {
+            "id": "PC_F2_C2_3"
+        },
+        {
+            "id": "PC_F2_C2_4"
+        },
+        {
+            "id": "Switch_F2_C3"
+        },
+        {
+            "id": "PC_F2_C3_1"
+        },
+        {
+            "id": "PC_F2_C3_2"
+        },
+        {
+            "id": "PC_F2_C3_3"
+        },
+        {
+            "id": "PC_F2_C3_4"
+        },
+        {
+            "id": "FloorSwitch_3"
+        },
+        {
+            "id": "Switch_F3_C1"
+        },
+        {
+            "id": "PC_F3_C1_1"
+        },
+        {
+            "id": "PC_F3_C1_2"
+        },
+        {
+            "id": "PC_F3_C1_3"
+        },
+        {
+            "id": "PC_F3_C1_4"
+        },
+        {
+            "id": "Switch_F3_C2"
+        },
+        {
+            "id": "PC_F3_C2_1"
+        },
+        {
+            "id": "PC_F3_C2_2"
+        },
+        {
+            "id": "PC_F3_C2_3"
+        },
+        {
+            "id": "PC_F3_C2_4"
+        },
+        {
+            "id": "Switch_F3_C3"
+        },
+        {
+            "id": "PC_F3_C3_1"
+        },
+        {
+            "id": "PC_F3_C3_2"
+        },
+        {
+            "id": "PC_F3_C3_3"
+        },
+        {
+            "id": "PC_F3_C3_4"
+        },
+        {
+            "id": "CentralRouter"
+        },
+        {
+            "id": "Node_A"
+        },
+        {
+            "id": "Node_B"
+        }
+    ],
+    "edges": [
+        {
+            "weight": 1,
+            "source": "FloorSwitch_1",
+            "target": "Switch_F1_C1"
+        },
+        {
+            "weight": 3,
+            "source": "FloorSwitch_1",
+            "target": "Switch_F1_C2"
+        },
+        {
+            "weight": 2,
+            "source": "FloorSwitch_1",
+            "target": "Switch_F1_C3"
+        },
+        {
+            "weight": 9,
+            "source": "FloorSwitch_1",
+            "target": "CentralRouter"
+        },
+        {
+            "weight": 3,
+            "source": "Switch_F1_C1",
+            "target": "PC_F1_C1_1"
+        },
+        {
+            "weight": 2,
+            "source": "Switch_F1_C1",
+            "target": "PC_F1_C1_2"
+        },
+        {
+            "weight": 3,
+            "source": "Switch_F1_C1",
+            "target": "PC_F1_C1_3"
+        },
+        {
+            "weight": 5,
+            "source": "Switch_F1_C1",
+            "target": "PC_F1_C1_4"
+        },
+        {
+            "weight": 12,
+            "source": "PC_F1_C1_1",
+            "target": "Node_A"
+        },
+        {
+            "weight": 5,
+            "source": "Switch_F1_C2",
+            "target": "PC_F1_C2_1"
+        },
+        {
+            "weight": 3,
+            "source": "Switch_F1_C2",
+            "target": "PC_F1_C2_2"
+        },
+        {
+            "weight": 5,
+            "source": "Switch_F1_C2",
+            "target": "PC_F1_C2_3"
+        },
+        {
+            "weight": 1,
+            "source": "Switch_F1_C2",
+            "target": "PC_F1_C2_4"
+        },
+        {
+            "weight": 5,
+            "source": "Switch_F1_C3",
+            "target": "PC_F1_C3_1"
+        },
+        {
+            "weight": 1,
+            "source": "Switch_F1_C3",
+            "target": "PC_F1_C3_2"
+        },
+        {
+            "weight": 1,
+            "source": "Switch_F1_C3",
+            "target": "PC_F1_C3_3"
+        },
+        {
+            "weight": 2,
+            "source": "Switch_F1_C3",
+            "target": "PC_F1_C3_4"
+        },
+        {
+            "weight": 4,
+            "source": "FloorSwitch_2",
+            "target": "Switch_F2_C1"
+        },
+        {
+            "weight": 10,
+            "source": "FloorSwitch_2",
+            "target": "Switch_F2_C2"
+        },
+        {
+            "weight": 6,
+            "source": "FloorSwitch_2",
+            "target": "Switch_F2_C3"
+        },
+        {
+            "weight": 10,
+            "source": "FloorSwitch_2",
+            "target": "CentralRouter"
+        },
+        {
+            "weight": 2,
+            "source": "Switch_F2_C1",
+            "target": "PC_F2_C1_1"
+        },
+        {
+            "weight": 3,
+            "source": "Switch_F2_C1",
+            "target": "PC_F2_C1_2"
+        },
+        {
+            "weight": 3,
+            "source": "Switch_F2_C1",
+            "target": "PC_F2_C1_3"
+        },
+        {
+            "weight": 2,
+            "source": "Switch_F2_C1",
+            "target": "PC_F2_C1_4"
+        },
+        {
+            "weight": 2,
+            "source": "Switch_F2_C2",
+            "target": "PC_F2_C2_1"
+        },
+        {
+            "weight": 1,
+            "source": "Switch_F2_C2",
+            "target": "PC_F2_C2_2"
+        },
+        {
+            "weight": 4,
+            "source": "Switch_F2_C2",
+            "target": "PC_F2_C2_3"
+        },
+        {
+            "weight": 4,
+            "source": "Switch_F2_C2",
+            "target": "PC_F2_C2_4"
+        },
+        {
+            "weight": 2,
+            "source": "Switch_F2_C3",
+            "target": "PC_F2_C3_1"
+        },
+        {
+            "weight": 3,
+            "source": "Switch_F2_C3",
+            "target": "PC_F2_C3_2"
+        },
+        {
+            "weight": 4,
+            "source": "Switch_F2_C3",
+            "target": "PC_F2_C3_3"
+        },
+        {
+            "weight": 1,
+            "source": "Switch_F2_C3",
+            "target": "PC_F2_C3_4"
+        },
+        {
+            "weight": 10,
+            "source": "FloorSwitch_3",
+            "target": "Switch_F3_C1"
+        },
+        {
+            "weight": 3,
+            "source": "FloorSwitch_3",
+            "target": "Switch_F3_C2"
+        },
+        {
+            "weight": 2,
+            "source": "FloorSwitch_3",
+            "target": "Switch_F3_C3"
+        },
+        {
+            "weight": 6,
+            "source": "FloorSwitch_3",
+            "target": "CentralRouter"
+        },
+        {
+            "weight": 4,
+            "source": "Switch_F3_C1",
+            "target": "PC_F3_C1_1"
+        },
+        {
+            "weight": 4,
+            "source": "Switch_F3_C1",
+            "target": "PC_F3_C1_2"
+        },
+        {
+            "weight": 3,
+            "source": "Switch_F3_C1",
+            "target": "PC_F3_C1_3"
+        },
+        {
+            "weight": 3,
+            "source": "Switch_F3_C1",
+            "target": "PC_F3_C1_4"
+        },
+        {
+            "weight": 2,
+            "source": "Switch_F3_C2",
+            "target": "PC_F3_C2_1"
+        },
+        {
+            "weight": 2,
+            "source": "Switch_F3_C2",
+            "target": "PC_F3_C2_2"
+        },
+        {
+            "weight": 4,
+            "source": "Switch_F3_C2",
+            "target": "PC_F3_C2_3"
+        },
+        {
+            "weight": 1,
+            "source": "Switch_F3_C2",
+            "target": "PC_F3_C2_4"
+        },
+        {
+            "weight": 4,
+            "source": "Switch_F3_C3",
+            "target": "PC_F3_C3_1"
+        },
+        {
+            "weight": 2,
+            "source": "Switch_F3_C3",
+            "target": "PC_F3_C3_2"
+        },
+        {
+            "weight": 2,
+            "source": "Switch_F3_C3",
+            "target": "PC_F3_C3_3"
+        },
+        {
+            "weight": 2,
+            "source": "Switch_F3_C3",
+            "target": "PC_F3_C3_4"
+        },
+        {
+            "weight": 8,
+            "source": "CentralRouter",
+            "target": "Node_B"
+        },
+        {
+            "weight": 10,
+            "source": "Node_A",
+            "target": "Node_B"
+        }
+    ]
+}
